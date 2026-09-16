@@ -78,6 +78,9 @@ export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [contactSent, setContactSent] = useState(false);
+  const [contactError, setContactError] = useState("");
+  const [formStartedAt, setFormStartedAt] = useState<number | null>(null);
+  const [humanCheck, setHumanCheck] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 18);
@@ -93,10 +96,20 @@ export default function Home() {
   const handleContactSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const form = new FormData(event.currentTarget);
+    const honeypot = String(form.get("website") || "").trim();
     const name = String(form.get("name") || "").trim();
     const email = String(form.get("email") || "").trim();
     const inquiry = String(form.get("inquiry") || "General opportunity");
     const message = String(form.get("message") || "").trim();
+    if (honeypot || (formStartedAt && Date.now() - formStartedAt < 2500)) {
+      setContactError("Please wait a moment and try again.");
+      return;
+    }
+    if (!humanCheck) {
+      setContactError("Please confirm that you are sending a genuine professional inquiry.");
+      return;
+    }
+    setContactError("");
     const subject = encodeURIComponent(`${inquiry} — portfolio inquiry from ${name}`);
     const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nInquiry: ${inquiry}\n\nMessage:\n${message}`);
     setContactSent(true);
@@ -206,12 +219,15 @@ export default function Home() {
 
         <section className="contact-section" id="contact">
           <div className="contact-inner"><div className="section-kicker light-kicker">The next service</div><h2>Let's create something<br /><i>worth remembering.</i></h2><p>For yacht, culinary leadership, sushi, Italian cuisine, pastry, and high-volume hospitality opportunities.</p><div className="contact-actions"><a className="button button-light" href="mailto:carlocorro0620@gmail.com">Email Carlo <Mail size={17} /></a><a className="contact-detail" href="tel:+966569819245"><Phone size={16} />+966 56 981 9245</a></div></div>
-          <form className="contact-form" onSubmit={handleContactSubmit}>
+          <form className="contact-form" onSubmit={handleContactSubmit} onFocus={() => setFormStartedAt((startedAt) => startedAt ?? Date.now())}>
             <div className="form-intro"><span>EMPLOYER INQUIRY</span><strong>Start a conversation</strong></div>
+            <label className="honeypot-field" aria-hidden="true">Website<input name="website" type="text" tabIndex={-1} autoComplete="off" /></label>
             <div className="form-row"><label>Name<input name="name" type="text" placeholder="Your name" required /></label><label>Email<input name="email" type="email" placeholder="you@company.com" required /></label></div>
             <label>Inquiry type<select name="inquiry" defaultValue="Yacht opportunity"><option>Yacht opportunity</option><option>Chef / kitchen role</option><option>Interview request</option><option>Reference request</option><option>Other opportunity</option></select></label>
             <label>Message<textarea name="message" placeholder="Tell Carlo about the opportunity, vessel, location, or next steps..." rows={4} required /></label>
+            <label className="human-check"><input type="checkbox" checked={humanCheck} onChange={(event) => setHumanCheck(event.target.checked)} /> <span>I confirm this is a genuine professional inquiry.</span></label>
             <button className="button form-submit" type="submit">Send inquiry <ArrowUpRight size={16} /></button>
+            {contactError && <p className="form-status form-error" role="alert">{contactError}</p>}
             {contactSent && <p className="form-status" role="status">Your email composer is opening with the inquiry prepared.</p>}
           </form>
           <div className="contact-side"><Globe2 size={33} strokeWidth={1.2} /><span>Based in<br /><b>Binangonan, Rizal</b></span><small>Open to international hospitality opportunities</small></div>
