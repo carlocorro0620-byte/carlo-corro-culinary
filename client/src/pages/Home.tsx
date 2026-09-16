@@ -13,7 +13,7 @@ import {
   X,
 } from "lucide-react";
 
-const profileImage = "/manus-storage/carlo-chef-kitchen_def3978b.jpg";
+const profileImage = "/manus-storage/carlo-chef-professional-kitchen_a3bcf774.png";
 
 const experiences = [
   {
