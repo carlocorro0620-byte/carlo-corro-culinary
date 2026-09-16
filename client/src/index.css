@@ -134,6 +134,22 @@ h2 { font-size: clamp(42px, 5.2vw, 72px); line-height: .97; letter-spacing: -.05
 .credential-row span { color: var(--coral); font-size: 9px; font-weight: 700; letter-spacing: .1em; }
 .credential-row p { font-size: 12px; margin: 0; color: var(--ink-soft); }
 .credential-row svg { color: var(--coral); }
+.references-section { background: var(--paper); padding: 100px 0 110px; }
+.references-heading { margin-bottom: 48px; }
+.references-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.reference-card { min-height: 190px; padding: 24px; border: 1px solid var(--line); background: var(--cream); position: relative; transition: transform .22s ease, box-shadow .22s ease; }
+.reference-card:hover { transform: translateY(-4px); box-shadow: 0 16px 32px rgba(24,42,49,.1); }
+.reference-card::before { content: ''; position: absolute; left: 0; top: 0; height: 3px; width: 45px; background: var(--coral); }
+.reference-card span { color: var(--coral); font-size: 8.5px; letter-spacing: .13em; font-weight: 700; }
+.reference-card h3 { font-family: 'Playfair Display', serif; font-size: 23px; line-height: 1.05; font-weight: 500; letter-spacing: -.03em; margin: 25px 0 8px; }
+.reference-card p { color: var(--ink-soft); font-size: 12px; margin-bottom: 18px; }
+.reference-card small { color: var(--slate); font-size: 9px; letter-spacing: .05em; }
+.reference-note { margin-top: 19px; padding: 18px 20px; background: var(--ink); color: var(--cream); display: flex; align-items: center; gap: 14px; }
+.reference-note > svg { color: var(--coral); flex: 0 0 auto; }
+.reference-note div { display: grid; gap: 4px; flex: 1; }
+.reference-note strong { font-size: 12px; letter-spacing: .02em; }
+.reference-note span { color: #aebdb9; font-size: 11px; }
+.reference-note a { display: inline-flex; align-items: center; gap: 8px; color: #e7a092; font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; white-space: nowrap; }
 .contact-section { background: var(--ink); color: var(--cream); padding: 105px 11vw 90px; display: grid; grid-template-columns: 1fr .4fr; gap: 9vw; position: relative; }
 .contact-section::before { content: ''; position: absolute; width: 480px; height: 480px; border: 1px solid rgba(216,95,68,.35); border-radius: 50%; left: -280px; bottom: -300px; }
 .contact-inner { position: relative; z-index: 1; }
@@ -187,6 +203,10 @@ h2 { font-size: clamp(42px, 5.2vw, 72px); line-height: .97; letter-spacing: -.05
   .credentials-section { padding-top: 75px; padding-bottom: 80px; }
   .award-icon { display: none; }
   .education-card { margin-bottom: 35px; }
+  .references-section { padding-top: 75px; padding-bottom: 80px; }
+  .references-grid { grid-template-columns: 1fr; }
+  .reference-note { align-items: flex-start; flex-wrap: wrap; }
+  .reference-note a { margin-left: 33px; }
   .contact-section { padding-top: 76px; padding-bottom: 70px; gap: 50px; }
   .contact-side { align-self: start; padding-left: 0; border: 0; }
   .footer { padding: 20px 8vw; flex-wrap: wrap; gap: 12px; }

@@ -178,6 +178,18 @@ export default function Home() {
           <div className="credentials-grid"><div className="education-card"><span className="card-label">EDUCATION</span><h3>Bachelor of Arts in Theology</h3><p>Words of Life Theological Seminary College</p><span className="card-year">2008 — 2012</span><small>Successfully completed a four-year graduate program focusing on theological studies and leadership.</small></div><div className="credential-list">{credentials.map((credential, index) => <div className="credential-row" key={credential}><span>0{index + 1}</span><p>{credential}</p><ArrowUpRight size={16} /></div>)}</div></div>
         </section>
 
+        <section className="references-section">
+          <div className="section-wrap">
+            <div className="section-heading references-heading"><div><div className="section-kicker">Professional references</div><h2>Trusted in the<br /><i>kitchen.</i></h2></div><p>Previous employers are listed for recruitment context. Contact details can be provided directly to serious hiring managers upon request.</p></div>
+            <div className="references-grid">
+              <article className="reference-card"><span>01 / PREVIOUS EMPLOYER</span><h3>Radical / Dar Al Abbar Company</h3><p>Sous Chef / Sushi</p><small>November 30, 2024 — August 30, 2026</small></article>
+              <article className="reference-card"><span>02 / PREVIOUS EMPLOYER</span><h3>United Foods Company</h3><p>Italian Sous Chef</p><small>October 26, 2022 — November 7, 2024</small></article>
+              <article className="reference-card"><span>03 / PREVIOUS EMPLOYER</span><h3>Business Facilities Company</h3><p>Chef de Partie</p><small>September 19, 2019 — September 19, 2022</small></article>
+            </div>
+            <div className="reference-note"><Mail size={19} /><div><strong>References available upon request</strong><span>For verification or employer-contact requests, please email Carlo directly.</span></div><a href="mailto:carlocorro0620@gmail.com">Request details <ArrowUpRight size={16} /></a></div>
+          </div>
+        </section>
+
         <section className="contact-section" id="contact">
           <div className="contact-inner"><div className="section-kicker light-kicker">The next service</div><h2>Let's create something<br /><i>worth remembering.</i></h2><p>For culinary leadership, sushi, Italian cuisine, pastry, and high-volume hospitality opportunities.</p><div className="contact-actions"><a className="button button-light" href="mailto:carlocorro0620@gmail.com">Email Carlo <Mail size={17} /></a><a className="contact-detail" href="tel:+966569819245"><Phone size={16} />+966 56 981 9245</a></div></div><div className="contact-side"><Globe2 size={33} strokeWidth={1.2} /><span>Based in<br /><b>Binangonan, Rizal</b></span><small>Open to international hospitality opportunities</small></div>
         </section>
