@@ -4,9 +4,9 @@
 
 ### Italian / Japanese Cuisine Chef
 
-Professional portfolio website and CV for **Carlo Crisanto Corro**, a versatile culinary professional specializing in Japanese cuisine, sushi and sashimi, Italian cuisine, pastry arts, kitchen leadership, and food-safety operations.
+Professional portfolio website and yacht-application CV for **Carlo Crisanto Corro**, a versatile culinary professional specializing in Japanese cuisine, sushi and sashimi, Italian cuisine, pastry arts, kitchen leadership, maritime readiness, and food-safety operations.
 
-[View Live Portfolio](https://carloportrai-ahda4als.manus.space) · [Download CV](./Carlo_Corro_CV_Photo_Free_Portfolio_QR.pdf) · [Contact Carlo](mailto:carlocorro0620@gmail.com)
+[View Live Portfolio](https://carloportrai-ahda4als.manus.space) · [Download Yacht CV](./Carlo_Corro_Yacht_Chef_CV.pdf) · [Contact Carlo](mailto:carlocorro0620@gmail.com)
 
 </div>
 
@@ -14,7 +14,7 @@ Professional portfolio website and CV for **Carlo Crisanto Corro**, a versatile 
 
 ## About the project
 
-This repository contains Carlo Corro's professional culinary portfolio website and photo-free CV. The website is designed as a polished digital introduction for hospitality employers, restaurant groups, culinary recruiters, and event clients.
+This repository contains Carlo Corro's professional culinary portfolio website and yacht-focused CV. The website is designed as a polished digital introduction for yacht recruiters, private owners, hospitality employers, restaurant groups, culinary recruiters, and event clients.
 
 The portfolio brings Carlo's experience into one clear presentation: culinary profile, career history, measurable kitchen impact, areas of expertise, certifications, academic background, signature cuisine direction, professional portrait, and contact information.
 
@@ -45,13 +45,13 @@ His culinary focus includes Japanese cuisine, sashimi, sushi, maki, Italian cuis
 - **Credentials** — education, cookery and pastry certificates, ship catering, STCW, fire rescue boats, and safety officer awareness training.
 - **Contact** — email, phone, location, and opportunity-focused call-to-action.
 
-## CV and QR code
+## Yacht CV and QR code
 
-The repository includes a **photo-free professional CV** in PDF format:
+The repository includes a **two-page yacht-focused CV** in PDF format:
 
-[Open Carlo Corro's CV with portfolio QR code](./Carlo_Corro_CV_Photo_Free_Portfolio_QR.pdf)
+[Open Carlo Corro's Yacht Chef CV with portfolio QR code](./Carlo_Corro_Yacht_Chef_CV.pdf)
 
-The QR code on the CV links directly to the live portfolio website, making it easy for recruiters and employers to view the complete online profile from a printed or downloaded copy.
+The yacht CV highlights maritime training, ship catering, STCW, fire-rescue-boat proficiency, safety awareness, galley readiness, food safety, dietary preparation, inventory control, and Italian/Japanese culinary capabilities. The QR code on the CV links directly to the live portfolio website, making it easy for yacht recruiters and employers to view the complete online profile from a printed or downloaded copy.
 
 ## Technology
 
@@ -75,7 +75,7 @@ client/
     App.tsx            Application entry component
     index.css          Global design system and responsive styling
   index.html           HTML metadata and page title
-Carlo_Corro_CV_Photo_Free_Portfolio_QR.pdf
+Carlo_Corro_Yacht_Chef_CV.pdf
 README.md
 package.json
 vite.config.ts

@@ -118,7 +118,7 @@ export default function Home() {
             <p className="hero-lede">A versatile culinary professional shaping memorable menus, disciplined kitchens, and elevated guest experiences across Japanese, Italian, sushi, and pastry disciplines.</p>
             <div className="hero-actions">
               <button className="button button-dark" onClick={() => handleNav("experience")}>Explore my work <ArrowUpRight size={17} /></button>
-              <a className="button button-outline" href="/manus-storage/Carlo_Corro_CV_Photo_Free_Portfolio_QR_cd1d7bdb.pdf" target="_blank" rel="noreferrer"><Download size={16} /> Download CV</a>
+              <a className="button button-outline" href="/manus-storage/Carlo_Corro_Yacht_Chef_CV_bce57716.pdf" target="_blank" rel="noreferrer"><Download size={16} /> Download Yacht CV</a>
               <a className="text-link" href="mailto:carlocorro0620@gmail.com">Available for opportunities <span>↗</span></a>
             </div>
           </div>
