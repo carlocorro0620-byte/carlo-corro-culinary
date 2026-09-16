@@ -13,7 +13,7 @@ import {
   X,
 } from "lucide-react";
 
-const profileImage = "/manus-storage/carlo-corro-profile_58b8bac7.png";
+const profileImage = "/manus-storage/carlo-chef-kitchen_def3978b.jpg";
 
 const experiences = [
   {
@@ -151,6 +151,17 @@ export default function Home() {
                 <div className="experience-points">{item.points.map((point, pointIndex) => <p key={pointIndex}><span>↳</span>{point}</p>)}</div>
               </article>
             ))}
+          </div>
+        </section>
+
+        <section className="food-gallery-section" id="food-gallery">
+          <div className="section-wrap">
+            <div className="section-heading gallery-heading"><div><div className="section-kicker">Signature direction</div><h2>Italian warmth.<br /><i>Japanese precision.</i></h2></div><p>A visual taste of the cuisines and pastry disciplines that shape Carlo's kitchen point of view — presented with clarity, restraint, and respect for the ingredient.</p></div>
+            <div className="food-gallery-grid">
+              <article className="food-card food-card-large"><img src="/manus-storage/italian-signature-pasta_ecae8959.jpg" alt="Handmade Italian pasta with tomato, basil, and parmesan" /><div className="food-card-overlay"><span>01 / ITALIAN</span><h3>Handmade pasta<br /><i>with intent.</i></h3></div></article>
+              <article className="food-card"><img src="/manus-storage/japanese-sushi-omakase_d72bcd29.jpg" alt="Japanese sushi omakase with sashimi and maki rolls" /><div className="food-card-overlay"><span>02 / JAPANESE</span><h3>Sushi, sashimi<br /><i>and balance.</i></h3></div></article>
+              <article className="food-card"><img src="/manus-storage/pastry-detail_3491204b.jpg" alt="Elegant pastry and fruit tart composition" /><div className="food-card-overlay"><span>03 / PASTRY</span><h3>Details that<br /><i>stay with you.</i></h3></div></article>
+            </div>
           </div>
         </section>
 
