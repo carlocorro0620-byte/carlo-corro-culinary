@@ -6,7 +6,7 @@
 
 Professional portfolio website and yacht-application CV for **Carlo Crisanto Corro**, a versatile culinary professional specializing in Japanese cuisine, sushi and sashimi, Italian cuisine, pastry arts, kitchen leadership, maritime readiness, and food-safety operations.
 
-[View Live Portfolio](https://carloportrai-ahda4als.manus.space) · [Download Yacht CV](./Carlo_Corro_Yacht_CV.pdf) · [Contact Carlo](mailto:carlocorro0620@gmail.com)
+[View Live Portfolio](https://carloportrai-ahda4als.manus.space) · [Download ATS Yacht CV](./Carlo_Corro_Yacht_CV.pdf) · [Download Cover Letter](./Carlo_Corro_Yacht_Cover_Letter.pdf) · [Contact Carlo](mailto:carlocorro0620@gmail.com)
 
 </div>
 
@@ -47,11 +47,13 @@ His culinary focus includes Japanese cuisine, sashimi, sushi, maki, Italian cuis
 
 ## Yacht CV and QR code
 
-The repository includes a **two-page yacht-focused CV** in PDF format:
+The repository includes a **two-page ATS-optimized yacht-focused CV** and a separate **one-page yacht cover letter** in PDF format:
 
 [Open Carlo Corro's Yacht CV with portfolio QR code](./Carlo_Corro_Yacht_CV.pdf)
 
 The yacht CV highlights maritime training, ship catering, STCW, fire-rescue-boat proficiency, safety awareness, galley readiness, food safety, dietary preparation, inventory control, and Italian/Japanese culinary capabilities. The QR code on the CV links directly to Carlo Corro's GitHub portfolio, making it easy for yacht recruiters and employers to view the complete online profile from a printed or downloaded copy.
+
+[Download Carlo Corro's Yacht Cover Letter](./Carlo_Corro_Yacht_Cover_Letter.pdf)
 
 ## Technology
 
