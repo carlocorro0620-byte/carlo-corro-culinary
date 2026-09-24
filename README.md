@@ -6,7 +6,7 @@
 
 Professional portfolio website and yacht-application CV for **Carlo Crisanto Corro**, a versatile culinary professional specializing in Japanese cuisine, sushi and sashimi, Italian cuisine, pastry arts, kitchen leadership, maritime readiness, and food-safety operations.
 
-[View Live Portfolio](https://carloportrai-ahda4als.manus.space) · [Download Yacht CV](./Carlo_Corro_Yacht_Chef_CV.pdf) · [Contact Carlo](mailto:carlocorro0620@gmail.com)
+[View Live Portfolio](https://carloportrai-ahda4als.manus.space) · [Download Yacht CV](./Carlo_Corro_Yacht_CV.pdf) · [Contact Carlo](mailto:carlocorro0620@gmail.com)
 
 </div>
 
@@ -49,9 +49,9 @@ His culinary focus includes Japanese cuisine, sashimi, sushi, maki, Italian cuis
 
 The repository includes a **two-page yacht-focused CV** in PDF format:
 
-[Open Carlo Corro's Yacht Chef CV with portfolio QR code](./Carlo_Corro_Yacht_Chef_CV.pdf)
+[Open Carlo Corro's Yacht CV with portfolio QR code](./Carlo_Corro_Yacht_CV.pdf)
 
-The yacht CV highlights maritime training, ship catering, STCW, fire-rescue-boat proficiency, safety awareness, galley readiness, food safety, dietary preparation, inventory control, and Italian/Japanese culinary capabilities. The QR code on the CV links directly to the live portfolio website, making it easy for yacht recruiters and employers to view the complete online profile from a printed or downloaded copy.
+The yacht CV highlights maritime training, ship catering, STCW, fire-rescue-boat proficiency, safety awareness, galley readiness, food safety, dietary preparation, inventory control, and Italian/Japanese culinary capabilities. The QR code on the CV links directly to Carlo Corro's GitHub portfolio, making it easy for yacht recruiters and employers to view the complete online profile from a printed or downloaded copy.
 
 ## Technology
 
@@ -75,7 +75,7 @@ client/
     App.tsx            Application entry component
     index.css          Global design system and responsive styling
   index.html           HTML metadata and page title
-Carlo_Corro_Yacht_Chef_CV.pdf
+Carlo_Corro_Yacht_CV.pdf
 README.md
 package.json
 vite.config.ts
