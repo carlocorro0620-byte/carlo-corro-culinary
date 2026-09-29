@@ -18,8 +18,8 @@ const profileImage = "/manus-storage/carlo-chef-professional-kitchen_a3bcf774.pn
 const experiences = [
   {
     years: "NOV 2024 — AUG 2026",
-    role: "Sous Chef / Sushi",
-    company: "Radical / Dar Al Abbar Company",
+    role: "Sushi Sous Chef",
+    company: "Dar Al Abbar Company",
     accent: "sushi",
     points: [
       <>Led end-to-end development and execution of specialized sushi bar and restaurant menus, focusing on high-quality sashimi, maki rolls, and traditional Japanese dishes while optimizing procurement to reduce food costs by <strong>15%</strong>.</>,
@@ -145,7 +145,7 @@ export default function Home() {
             <p className="hero-lede">A versatile culinary professional shaping memorable menus, disciplined kitchens, and elevated guest experiences across Japanese, Italian, sushi, and pastry disciplines.</p>
             <div className="hero-actions">
               <button className="button button-dark" onClick={() => handleNav("experience")}>Explore my work <ArrowUpRight size={17} /></button>
-              <a className="button button-outline" href="/manus-storage/Carlo_Corro_Yacht_Chef_CV_bce57716.pdf" target="_blank" rel="noreferrer"><Download size={16} /> Download Yacht CV</a>
+              <a className="button button-outline" href="/manus-storage/Carlo_Corro_Yacht_Chef_CV_c0ca89f4.pdf" target="_blank" rel="noreferrer"><Download size={16} /> Download Yacht CV</a>
               <a className="text-link" href="mailto:carlocorro0620@gmail.com">Available for opportunities <span>↗</span></a>
             </div>
           </div>
@@ -209,7 +209,7 @@ export default function Home() {
           <div className="section-wrap">
             <div className="section-heading references-heading"><div><div className="section-kicker">Professional references</div><h2>Trusted in the<br /><i>kitchen.</i></h2></div><p>Previous employers are listed for recruitment context. Contact details can be provided directly to serious hiring managers upon request.</p></div>
             <div className="references-grid">
-              <article className="reference-card"><span>01 / PREVIOUS EMPLOYER</span><h3>Radical / Dar Al Abbar Company</h3><p>Sous Chef / Sushi</p><small>November 30, 2024 — August 30, 2026</small></article>
+              <article className="reference-card"><span>01 / PREVIOUS EMPLOYER</span><h3>Dar Al Abbar Company</h3><p>Sushi Sous Chef</p><small>November 30, 2024 — August 30, 2026</small></article>
               <article className="reference-card"><span>02 / PREVIOUS EMPLOYER</span><h3>United Foods Company</h3><p>Italian Sous Chef</p><small>October 26, 2022 — November 7, 2024</small></article>
               <article className="reference-card"><span>03 / PREVIOUS EMPLOYER</span><h3>Business Facilities Company</h3><p>Chef de Partie</p><small>September 19, 2019 — September 19, 2022</small></article>
             </div>
