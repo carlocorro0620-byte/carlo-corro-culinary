@@ -39,7 +39,7 @@ const experiences = [
   },
   {
     years: "SEP 2019 — SEP 2022",
-    role: "Chef de Partie",
+    role: "Cook / Chef de Partie",
     company: "Business Facilities Company",
     accent: "japanese",
     points: [
@@ -145,7 +145,7 @@ export default function Home() {
             <p className="hero-lede">A versatile culinary professional shaping memorable menus, disciplined kitchens, and elevated guest experiences across Japanese, Italian, sushi, and pastry disciplines.</p>
             <div className="hero-actions">
               <button className="button button-dark" onClick={() => handleNav("experience")}>Explore my work <ArrowUpRight size={17} /></button>
-              <a className="button button-outline" href="/manus-storage/Carlo_Corro_Yacht_Chef_CV_4eedfc25.pdf" target="_blank" rel="noreferrer"><Download size={16} /> Download Yacht CV</a>
+              <a className="button button-outline" href="/manus-storage/Carlo_Corro_Yacht_Chef_CV_2fcedc4b.pdf" target="_blank" rel="noreferrer"><Download size={16} /> Download Yacht CV</a>
               <a className="text-link" href="mailto:carlocorro0620@gmail.com">Available for opportunities <span>↗</span></a>
             </div>
           </div>
@@ -211,7 +211,7 @@ export default function Home() {
             <div className="references-grid">
               <article className="reference-card"><span>01 / PREVIOUS EMPLOYER</span><h3>Dar Al Abbar Company</h3><p>Sushi Sous Chef</p><small>November 30, 2024 — August 30, 2026</small></article>
               <article className="reference-card"><span>02 / PREVIOUS EMPLOYER</span><h3>United Foods Company</h3><p>Italian Sous Chef</p><small>October 26, 2022 — November 7, 2024</small></article>
-              <article className="reference-card"><span>03 / PREVIOUS EMPLOYER</span><h3>Business Facilities Company</h3><p>Chef de Partie</p><small>September 19, 2019 — September 19, 2022</small></article>
+              <article className="reference-card"><span>03 / PREVIOUS EMPLOYER</span><h3>Business Facilities Company</h3><p>Cook / Chef de Partie</p><small>September 19, 2019 — September 19, 2022</small></article>
             </div>
             <div className="reference-note"><Mail size={19} /><div><strong>References available upon request</strong><span>For verification or employer-contact requests, please email Carlo directly.</span></div><a href="mailto:carlocorro0620@gmail.com">Request details <ArrowUpRight size={16} /></a></div>
           </div>
