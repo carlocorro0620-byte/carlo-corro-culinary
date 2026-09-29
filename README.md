@@ -116,8 +116,8 @@ pnpm build
 Italian / Japanese Cuisine Chef  
 
 - Email: [carlocorro0620@gmail.com](mailto:carlocorro0620@gmail.com)
-- Phone: [+966 56 981 9245](tel:+966569819245)
-- Location: 000 Sulukan 3 Extension, Gervacio Street, Pantok, Binangonan, Rizal
+- Phone: [+971 58 873 3969](tel:+971588733969)
+- Location: 37th Street, Al Muraqqabat, Deira, Dubai
 - Portfolio: [carloportrai-ahda4als.manus.space](https://carloportrai-ahda4als.manus.space)
 
 ---

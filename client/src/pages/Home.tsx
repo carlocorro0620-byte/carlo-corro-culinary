@@ -145,7 +145,7 @@ export default function Home() {
             <p className="hero-lede">A versatile culinary professional shaping memorable menus, disciplined kitchens, and elevated guest experiences across Japanese, Italian, sushi, and pastry disciplines.</p>
             <div className="hero-actions">
               <button className="button button-dark" onClick={() => handleNav("experience")}>Explore my work <ArrowUpRight size={17} /></button>
-              <a className="button button-outline" href="/manus-storage/Carlo_Corro_Yacht_Chef_CV_c0ca89f4.pdf" target="_blank" rel="noreferrer"><Download size={16} /> Download Yacht CV</a>
+              <a className="button button-outline" href="/manus-storage/Carlo_Corro_Yacht_Chef_CV_764d7c16.pdf" target="_blank" rel="noreferrer"><Download size={16} /> Download Yacht CV</a>
               <a className="text-link" href="mailto:carlocorro0620@gmail.com">Available for opportunities <span>↗</span></a>
             </div>
           </div>
@@ -218,7 +218,7 @@ export default function Home() {
         </section>
 
         <section className="contact-section" id="contact">
-          <div className="contact-inner"><div className="section-kicker light-kicker">The next service</div><h2>Let's create something<br /><i>worth remembering.</i></h2><p>For yacht, culinary leadership, sushi, Italian cuisine, pastry, and high-volume hospitality opportunities.</p><div className="contact-actions"><a className="button button-light" href="mailto:carlocorro0620@gmail.com">Email Carlo <Mail size={17} /></a><a className="contact-detail" href="tel:+966569819245"><Phone size={16} />+966 56 981 9245</a></div></div>
+          <div className="contact-inner"><div className="section-kicker light-kicker">The next service</div><h2>Let's create something<br /><i>worth remembering.</i></h2><p>For yacht, culinary leadership, sushi, Italian cuisine, pastry, and high-volume hospitality opportunities.</p><div className="contact-actions"><a className="button button-light" href="mailto:carlocorro0620@gmail.com">Email Carlo <Mail size={17} /></a><a className="contact-detail" href="tel:+971588733969"><Phone size={16} />+971 58 873 3969</a></div></div>
           <form className="contact-form" onSubmit={handleContactSubmit} onFocus={() => setFormStartedAt((startedAt) => startedAt ?? Date.now())}>
             <div className="form-intro"><span>EMPLOYER INQUIRY</span><strong>Start a conversation</strong></div>
             <label className="honeypot-field" aria-hidden="true">Website<input name="website" type="text" tabIndex={-1} autoComplete="off" /></label>
@@ -230,7 +230,7 @@ export default function Home() {
             {contactError && <p className="form-status form-error" role="alert">{contactError}</p>}
             {contactSent && <p className="form-status" role="status">Your email composer is opening with the inquiry prepared.</p>}
           </form>
-          <div className="contact-side"><Globe2 size={33} strokeWidth={1.2} /><span>Based in<br /><b>Binangonan, Rizal</b></span><small>Open to international hospitality opportunities</small></div>
+          <div className="contact-side"><Globe2 size={33} strokeWidth={1.2} /><span>Based in<br /><b>Al Muraqqabat, Deira, Dubai</b></span><small>Open to international hospitality opportunities</small></div>
         </section>
       </main>
       <footer className="footer"><span>© 2026 Carlo Crisanto Corro</span><span>Italian / Japanese Cuisine Chef</span><a href="#top">Back to top ↑</a></footer>
