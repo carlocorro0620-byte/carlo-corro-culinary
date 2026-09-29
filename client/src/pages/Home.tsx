@@ -145,7 +145,7 @@ export default function Home() {
             <p className="hero-lede">A versatile culinary professional shaping memorable menus, disciplined kitchens, and elevated guest experiences across Japanese, Italian, sushi, and pastry disciplines.</p>
             <div className="hero-actions">
               <button className="button button-dark" onClick={() => handleNav("experience")}>Explore my work <ArrowUpRight size={17} /></button>
-              <a className="button button-outline" href="/manus-storage/Carlo_Corro_Yacht_Chef_CV_764d7c16.pdf" target="_blank" rel="noreferrer"><Download size={16} /> Download Yacht CV</a>
+              <a className="button button-outline" href="/manus-storage/Carlo_Corro_Yacht_Chef_CV_4eedfc25.pdf" target="_blank" rel="noreferrer"><Download size={16} /> Download Yacht CV</a>
               <a className="text-link" href="mailto:carlocorro0620@gmail.com">Available for opportunities <span>↗</span></a>
             </div>
           </div>
@@ -202,7 +202,7 @@ export default function Home() {
 
         <section className="credentials-section section-wrap">
           <div className="section-heading credential-heading"><div><div className="section-kicker">Credentials & foundation</div><h2>Prepared for<br /><i>high standards.</i></h2></div><Award className="award-icon" size={42} strokeWidth={1.2} /></div>
-          <div className="credentials-grid"><div className="education-card"><span className="card-label">EDUCATION</span><h3>Bachelor of Arts in Theology</h3><p>Words of Life Theological Seminary College</p><span className="card-year">2008 — 2012</span><small>Successfully completed a four-year graduate program focusing on theological studies and leadership.</small></div><div className="credential-list">{credentials.map((credential, index) => <div className="credential-row" key={credential}><span>0{index + 1}</span><p>{credential}</p><ArrowUpRight size={16} /></div>)}</div></div>
+          <div className="credentials-grid"><div className="education-card"><span className="card-label">EDUCATION</span><h3>Bachelor of Arts in Theology</h3><p>Words of Life Theological Seminary College</p><span className="card-year">2008 — 2012</span><small>Successfully completed a four-year graduate program focusing on theological studies and leadership.</small></div><div className="credential-list">{credentials.map((credential, index) => <div className="credential-row" key={credential}><span>0{index + 1}</span><p>{credential === "STCW Maritime Course" ? "STCW / PNTC College Maritime Training Center" : credential}</p><ArrowUpRight size={16} /></div>)}</div></div>
         </section>
 
         <section className="references-section">
