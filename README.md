@@ -117,7 +117,7 @@ Italian / Japanese Cuisine Chef
 
 - Email: [carlocorro0620@gmail.com](mailto:carlocorro0620@gmail.com)
 - Phone: [+971 58 873 3969](tel:+971588733969)
-- Location: 37th Street, Al Muraqqabat, Deira, Dubai
+- Location: 4F Room 412 Al Khubaise Building 26 Street Al Muraqqabat Al Rigga Dubai United Arab Emirates
 - Portfolio: [carloportrai-ahda4als.manus.space](https://carloportrai-ahda4als.manus.space)
 
 ---
